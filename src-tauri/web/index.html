@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Essay Guide</title>
+	<link rel="stylesheet" href ="boot/css/bootstrap.min.css"></link>
+</head>
+<body>
+	<div class="container">
+
+
+
+		<h1>Essay Guide</h1>
+		<div id="area"></div>
+		<textarea placeholder = "Questions/ Prompt here" class = "form-control" rows="5" id="form"></textarea>
+		<div class="buttons">
+			<br>
+			<input type="text" class ="form-control" id=wordCount placeholder="ex.100">
+			<button class ="btn btn-warning" onclick="addWord()">Add Word Count</button>
+			<button class ="btn btn-primary" onclick="addForm()">Add Form</button>
+			<button class ="btn btn-success" onclick="submit()">Submit</button>
+		</div>
+
+
+
+
+	</div>
+	<style>
+		#wordCount{
+			width:5rem;
+			height:3.4rem;
+			display: inline;
+		}
+	</style>
+	<script src = "index.js"></script>
+</body>
+</html>
