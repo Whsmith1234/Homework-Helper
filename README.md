@@ -1,4 +1,5 @@
 # Homework-Helper
 Helps structure homework
 
-Web version https://upbeat-pasteur-46bd5b.netlify.app
+Web version https://homework-help.netlify.app
+Now a PWA
